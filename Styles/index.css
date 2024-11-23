@@ -1,0 +1,157 @@
+body {
+  background: linear-gradient(225.00deg, #d1a57b,#e97c6ad4);
+  margin: 0;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 1910px;
+  height: 100px;
+
+  /* translate: -10px -10px; */
+
+  background-color: #C95C2342;
+
+  font-size: 60px;
+}
+/* ============================ */
+.container {
+  min-width: 1220px;
+  min-height: 79vh;
+  /* background-color: aqua; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar__section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  width: 400px;
+  height: 400px;
+  background: url(../Assets/Avatar.jpg) -165px -10px / 180% no-repeat;
+  
+  border-radius: 50%;
+
+  margin-top: 50px;
+}
+.name {
+  font-size: 60px;
+}
+/* ============================ */
+.social-networks__section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+  margin-top: 100px;
+}
+.SN {
+  font-size: 48px;
+}
+
+.social-networks__telegram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+.social-networks__telegram-svg {
+  width: 40px;
+  height: 40px;
+
+  background: url("../Assets/SVG/telegram.svg") round;
+}
+
+.social-networks__github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+.social-networks__github-svg {
+  width: 40px;
+  height: 40px;
+
+  background: url("../Assets/SVG/github.svg") round;
+}
+
+
+.social-networks__vk {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+.social-networks__vk-svg {
+  width: 50px;
+  height: 50px;
+
+  background: url("../Assets/SVG/vk.svg") round;
+}
+
+.social-networks__twitter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+.social-networks__twitter-svg {
+  width: 40px;
+  height: 40px;
+
+  background: url("../Assets/SVG/twitter.svg") round;
+}
+
+.social-networks__instagram {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 10px;
+}
+.social-networks__instagram-svg {
+  width: 40px;
+  height: 40px;
+
+  background: url("../Assets/SVG/instagram.svg") round;
+}
+
+/* ============================ */
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 10px;
+
+  position: fixed;
+  top: 850px;
+
+  /* translate: -10px 0px; */
+
+  width: 1910px;
+  height: 100px;
+  
+  background-color: #C95C2342;
+
+  font-size: 60px;
+}

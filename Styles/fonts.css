@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "jura";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../Fonts/Jura-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: "jura", sans-serif;
+  font-weight: lighter;
+}
